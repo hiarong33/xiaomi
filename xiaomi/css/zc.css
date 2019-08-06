@@ -1,0 +1,92 @@
+body{
+    background: #f5f5f5;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.box{
+    width: 860px;
+    height: 550px;
+    background: #fff;
+    margin: 5% auto auto;
+    position: relative;
+}
+.box .logo{
+    margin: 0 auto;
+    text-align: center;
+}
+.box .font{
+    font-size: 30px;
+    color: #333;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: '楷体';
+    margin: 0 auto;
+    text-align: center;
+}
+.box form{
+    margin-left: 37%;
+}
+.box form p{
+    margin:0;
+}
+.box form .tip{
+    margin-top: 5px;
+    color: #Ccc;
+    font-size: 13px;
+}
+.box form .phone{
+    margin-top: 10px;
+}
+.box form .text_phone{
+    width: 200px;
+    height: 25px;
+    margin: 0;
+    padding: 0 10px;
+    border: 1 solid black;
+}
+.box form label div{
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
+
+#select{
+    width: 200px; line-height: 25px;
+    border-radius: 5px; border:1px solid #ccc; 
+    font-size: 12px; padding:0 10px; position: relative;
+}
+#select i{
+    width: 0; height: 0; 
+    border-top: 5px solid #333;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute; top: 10px; right: 10px;
+        }
+#select span{
+    display: block; 
+    height: 25px; cursor: pointer;
+}
+#select ul,#select li{
+    padding: 0; margin:0
+}
+#select li{
+    line-height: 30px;
+    color: #666; 
+    list-style-type: none; 
+    border-bottom: 1px dashed #eee; 
+    cursor: pointer;
+    transition: all 1s ease 0s;
+}
+#select li:hover{ 
+    border-bottom: 1px solid #51A6FF; 
+    background-color: #DAF0FF; 
+    padding-left: 20px; 
+    font-weight: bold; 
+}
+#select li:last-child{border-bottom: 0}
+#select ul{display: none;}
+.flipx {transform: rotateY(180deg);}

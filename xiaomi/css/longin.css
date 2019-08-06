@@ -1,0 +1,100 @@
+body{
+    background: #f5f5f5;
+}
+a{
+    color: #ccc;
+}
+header .container .row {
+    width: 100%;
+    padding: 20px 0;
+}
+header .container .row  img{
+    padding-right: 20px;
+}
+header .container .row  h2{
+    font-family: "楷体";
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    line-height: 27px;
+}
+header .container .row  h2 span{
+    font-size: 12px;
+}
+
+.banner{
+    width: 100%;
+    margin-top: 5px;
+    padding: 0;
+    position: relative;
+}
+.banner .carousel-inner {
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+.banner .box{
+    width: 410px;
+    height: 380px;
+    background-color: #fff;
+    position: absolute;
+    top: 120px;
+    right: 65px;
+}
+.banner .box .loin{
+    margin: auto 0;
+}
+
+.banner .box .loin .box_top{
+    text-align: center;
+    padding: 27px 0;
+}
+.banner .box .loin .box_top a{
+    margin:15px;
+    font-size: 30px;
+    color: rgb(102, 102, 102);   
+}
+.banner .box .loin .box_top a:hover{
+    margin:15px;
+    font-size: 30px;
+    color: rgb(245, 102, 0);   
+}
+.banner .box .loin  form{
+    margin: 0 auto;
+}
+.banner .box .loin form .user{
+    width: 316px;
+    height: 22px;
+    padding: 13px 16px 13px 14px;
+    margin: 20px 47px;
+}
+.banner .box .loin  form .password{
+    width: 316px;
+    height: 22px;
+    padding: 13px 16px 13px 14px;
+    margin: 20px 47px;
+}
+.banner .box .loin  form .button{
+    width: 316px;
+    height: 35px;
+    margin: 20px 47px;
+    background:rgb(245, 102, 0);
+    border: 0;
+}
+.banner .box .loin .lianjie{
+    clear: both;
+    padding-top: 50px;
+    font-size: 80px;
+}
+.banner .box .loin .lianjie a{
+    margin-left: 30px;
+    margin: 0 25px;
+}
+footer{
+    text-align: center;
+    clear: both;
+    margin-top: 123px;
+}
+footer .foot{
+    margin-top: 530px;
+}

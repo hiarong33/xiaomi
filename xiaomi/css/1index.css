@@ -1,0 +1,232 @@
+.container{
+    width: 100%;
+}
+.container .row .navbar .top_box .navbar-collapse{
+    padding: 0;
+}
+/*小米导航栏*/
+.site-header{
+    width: 100%;
+    height: 100px;
+}
+.nav-list li a{
+    display: block;
+    color: #333;
+    padding: 8px 10px 38px;
+}
+.nav-list li{
+    float: left;
+    margin-top: 25px;
+    list-style:none;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    color: #ccc;
+}
+.site-header .container{
+    width: 100%;
+    padding: 0 120px;;
+}
+.site-header .nav-lg{
+    float: left;
+    margin-top: 25px;
+}
+.site-header .nav-list .site-category a .site-more{
+    width: 100px;
+    text-align: center;
+}
+.site-header .nav-list .site-category a .site-more ul{
+    margin:0; 
+    padding:0;
+    list-style:none;
+    display:none;
+}
+.site-header .nav-list .site-category a .site-more ul li{
+    background:#fff;
+    height:30px; 
+    line-height: 30px;
+}
+.site-header .nav-list .site-category a .site-more ul li:hover{
+    background:#ccc;
+}
+.site-header .nav-list .site-category a .site-more:hover ul{
+    display:block;
+    z-index: -100;
+}
+.nav-logo a{
+    display: block;
+    width:56px;
+    height: 56px; 
+}
+.site-header .nav-list{
+     float:left;
+     width: 820px;
+     height: 88px;
+     padding: 12px 0 0 30px;
+}
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.site-search{
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+
+}
+.site-search form{
+    height: 50px;
+    width: 296px;
+    padding: 0 10px;
+    line-height: 55px;
+    position: relative;
+}
+.site-search form .text{
+    width: 223px;
+    height: 48px;
+    border: 1px solid #eee;
+    padding: 0 10px;
+    
+    float: left;
+}
+.site-search form .search{
+    width: 49px;
+    height: 50px;
+    border: 1px solid #eee;
+    float: left;
+    
+    margin-left: 0px;
+}
+.search_hot_word{
+    position: absolute;
+    top: 0px;
+    right: 62px;
+}
+.search_hot_word span{
+    background: #eee;
+    padding: 0 5px;
+    color: #757575;
+}
+.search_hot_word span:hover{
+    cursor: pointer;		
+    background-color: #ff6700;
+    color: #fff;
+}
+.site-bar{
+    position: fixed;
+    width: 27px;
+    bottom: 100px;
+    right: 50%
+}
+.site-bar ul li{
+    width: 25px;
+    height: 39px;
+    border: 1px solid #f5f5f5;
+    background-color: #fff;
+    border-top: none;
+}
+.site-bar ul li .cdl{
+    border-top: 1px solid #f5f5f5;
+}
+.site-bar ul li a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    padding-top: 9px;
+}
+.site-bar ul li a img{
+    width: 20px;
+    height: 20px;
+}
+/*小米导航栏end*/
+/* content开始 */
+.content{
+    margin: 15px 0 26px 0;
+}
+.content .container-fluid{
+    width: 100%;
+    padding-left: 65px;
+}
+.content .container-fluid .con .con_1{
+    padding-top: 50px;
+}
+.content .container-fluid .con .con_1 .con_6>.col-md-4{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.content .container-fluid .guanggao{
+    width: 50%;
+}
+.content .container .row .tp{
+    margin: 25px 0 15px 0;
+    padding: 0 0;
+    width: 100%;    
+}
+/* content结束 */
+/* product开始 */
+.product {
+    width: 100%;
+    background-color: #ccc;
+}
+.product  .top p{
+    font-size: 30px;
+    color: #757575;
+    float: left;
+    font-family: '楷体';
+}
+.product  .top a{
+    font-size: 26px;
+    color: #757575;
+    float: right;
+    font-family: '楷体';
+}
+.product .container-fluid{
+    clear: both;
+}
+.product .container-fluid .row {
+   text-align: center;
+   margin: 0 -15px ;
+}
+.product .container-fluid .row .box_1{
+    padding: 0;
+    margin: 15px;
+    width: 600px;
+    background: #fff;
+}
+.product .container-fluid .row .box_1 a{
+    color: #333;
+}
+.product .container-fluid .row .box_1 a:hover{
+    color: rgb(173, 102, 102);
+}
+.product .container-fluid .row .box_1 a span{
+    color: rgb(250, 70, 70);
+}
+.product  .container .row .tp{
+    margin: 25px 0 15px 0;
+    padding: 0 0;
+    width: 100%;    
+}
+/* product结束 */
+/* footer开始 */
+footer .container{
+    background-color: #e3e3e3;
+    padding: 20px auto;
+}
+footer .container .logo{
+    margin: 20px 0;
+    float: left;
+}
+footer .container .more{
+    float: left;
+    margin: auto  0 auto 25px;
+}
+footer .container .more a{
+    margin: auto 0;
+}
+footer .container .more div>p{
+    float: left;
+}
+/* footer结束 */

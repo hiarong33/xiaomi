@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆注册</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.js 之前引入 -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/longin.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+
+<body>
+    <div>
+        <!-- 头部开始 -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <a href="1index.html"><img src="images/logo.png" alt="" class="pull-left"></a>
+                    <h2 class="pull-left"><strong>小米商城</strong> <br><span>让每个人都能享受科技的乐趣</span></h2>
+                </div>
+            </div>
+        </header>
+        <!-- 头部结束 -->
+        <!-- body开始 -->
+        <div class="banner container-fluid">
+            <div class="carousel-inner"><img src="images/bg1.jpg" alt="" style="width: 100%" ;></div>
+            <div class="box">
+                <div class="loin">
+                    <div class="box_top"><a href="#">帐号登录</a><a href="#">扫码登录</a></div>
+                    <form action="" style="margin-left: auto;" id="myform">
+                        <input type="text" name="username" placeholder="邮箱/手机号码/小米ID" class="user"><br>
+                        <span style="margin: 0 auto;"></span>
+                        <input type="password" name="password" placeholder="密码" class="password"><br>
+                        <span></span>
+                        <input type="button" value="登录" class="button">
+                    </form>
+                    <div class="zc_l pull-left"><a href="#">手机短信登录/注册</a></div>
+                    <div class="zc_r pull-right"><a href="#">立即注册</a> | <a href="#">忘记密码?</a></div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <!-- body结束 -->
+        <footer>
+            <div class="foot">
+                <p><a href="#">简体</a> | <a href="#">繁体</a> | <a href="#">English</a> | <a href="#">常见问题</a> | <a
+                        href="#">隐私政策</a></p>
+                <p>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+<script>
+    var form = document.forms['myform'];
+    var username = document.getElementsByName('username')[0];
+    var password = document.getElementsByName('password')[0];
+    var span = form.getElementsByTagName('span');
+    // 账号
+    username.onblur = function () {
+        if (username.value == '') {
+            message(0, '请输入用户名！');
+        } else if (
+            username.value.length < 4 ||
+            username.value.length > 18
+        ) {
+            message(0, '长度为4-18位！');
+        } else {
+            message(0, '');
+        }
+    }
+    username.onfocus = function () {
+        span[0].innerHTML = '';
+    }
+    function message(index, info, colors = 'red') {
+        span[index].innerHTML = info;
+        span[index].style.color = colors;
+    }
+    // 密码
+    password.onblur = function () {
+        if (password.value == '') {
+            message(1, '请输入密码！');
+        } else if (
+            password.value.length < 4 ||
+            password.value.length > 18
+        ) {
+            message(1, '长度为6-18位！');
+        } else {
+            message(1, '');
+        }
+    }
+    password.onfocus = function () {
+        span[1].innerHTML = '';
+    }
+    form.onsubmit = function () {
+        if (
+            username.value == '' ||
+            username.value.length < 4 ||
+            username.value.length > 18 ||
+            password.value == '' ||
+            password.value.length < 4 ||
+            password.value.length > 18
+        ) {
+            return false;
+        }else true;
+    }
+    function message(index, info, colors = 'red') {
+        span[index].innerHTML = info;
+        span[index].style.color = colors;
+    }
+</script>
