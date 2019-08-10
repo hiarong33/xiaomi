@@ -211,22 +211,19 @@
 }
 /* product结束 */
 /* footer开始 */
-footer .container{
-    background-color: #e3e3e3;
-    padding: 20px auto;
+.foot .container .shangbiao {
+    margin-top: 15px;
 }
-footer .container .logo{
-    margin: 20px 0;
-    float: left;
+.footer .end{
+    
+    text-align: center;
 }
-footer .container .more{
-    float: left;
-    margin: auto  0 auto 25px;
+.footer .end img{
+    clear: both;
+    margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+    
 }
-footer .container .more a{
-    margin: auto 0;
-}
-footer .container .more div>p{
-    float: left;
-}
+
 /* footer结束 */
